@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminders</title>
+    <link rel="stylesheet" href="pro.css" />
+    <script src="pro.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <h1>Focus</h1>
+        <p>Stay Productive, Stay Focused</p>
+      </div>
+
+      <!-- Add Task Form -->
+      <div class="content">
+        <form class="form" id="task-form">
+          <input
+            type="text"
+            class="input"
+            id="task-input"
+            placeholder="Add a new reminder..."
+          />
+          <button type="submit" class="button" id="sus">
+            <i class="fas fa-plus"></i> Add
+          </button>
+        </form>
+
+        <!-- Task List -->
+        <ul class="task-list" id="task-list">
+          <!-- Task Item 1 -->
+          <li class="task-item">
+            <input type="checkbox" class="task-checkbox" />
+            <div>
+              <p class="task-text">Prepare presentation for Monday</p>
+            </div>
+            <button class="task-delete">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </li>
+
+          <!-- Task Item 2 -->
+          <li class="task-item">
+            <input type="checkbox" class="task-checkbox" />
+            <div>
+              <p class="task-text">Call dentist for appointment</p>
+            </div>
+            <button class="task-delete">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </li>
+
+          <!-- Task Item 3 (Completed) -->
+          <li class="task-item completed">
+            <input type="checkbox" class="task-checkbox" checked />
+            <div>
+              <p class="task-text">Buy groceries</p>
+            </div>
+            <button class="task-delete">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </li>
+
+          <!-- Task Item 4 -->
+          <li class="task-item">
+            <input type="checkbox" class="task-checkbox" />
+            <div>
+              <p class="task-text">Finish project documentation</p>
+            </div>
+            <button class="task-delete">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </li>
+        </ul>
+
+        <!-- Stats -->
+        <div class="stats">
+          <span id="total-tasks">4 Tasks</span>
+          <span id="completed-tasks">1 Completed</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
