@@ -1,6 +1,8 @@
 # FOCUS: Stay Productive, Stay Focused 🎯
 
 A sleek, modern task management application that helps you organize your day with style. Focus combines elegant glassmorphic design with powerful functionality to keep your reminders beautifully organized and always accessible.
+<img width="1905" height="1079" alt="image" src="https://github.com/user-attachments/assets/63aacdf5-6046-4639-8f5a-f13184a60d79" />
+
 <img width="1893" height="976" alt="image" src="https://github.com/user-attachments/assets/1e1ac7ce-9ef1-4f8a-b9c6-4a9838ee632f" />
 <img width="1895" height="977" alt="image" src="https://github.com/user-attachments/assets/c6a25bbf-9282-4b14-8c7c-cfd308798171" />
 <img width="1860" height="752" alt="image" src="https://github.com/user-attachments/assets/30fd7b44-8e5d-48f3-b752-eb27e4d587e5" />
